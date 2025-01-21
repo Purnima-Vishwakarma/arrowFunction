@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Arrow Function</h2>
+    <script>
+        let add=(a,b)=>a+b;
+        console.log(add(3,2));
+        let mul=(x,y)=>x*y;
+        console.log("product of two number is:",mul(5,3));
+        let sub=(c,d)=>c-d;
+        console.log("subtract of two number is:",sub(5,2));
+        let student={
+            name:"purnima",
+            age:22,
+            getAvg(){
+                console.log(`my name is: ${this.name} and age is:${this.age}`);
+            }
+        };
+        student.getAvg();
+
+    </script>
+</body>
+</html>
